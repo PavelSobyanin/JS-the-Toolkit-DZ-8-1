@@ -1,0 +1,37 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^27.5.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  },
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/c7bueohqexbdn7ws?svg=true)](https://ci.appveyor.com/project/PavelSobyanin/js-the-toolkit-dz-8-1)",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PavelSobyanin/JS-the-Toolkit-DZ-8-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PavelSobyanin/JS-the-Toolkit-DZ-8-1/issues"
+  },
+  "homepage": "https://github.com/PavelSobyanin/JS-the-Toolkit-DZ-8-1#readme"
+}
